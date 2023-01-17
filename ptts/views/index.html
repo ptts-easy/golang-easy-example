@@ -1,0 +1,29 @@
+{{template "header.html" .}}
+
+<section class="bg-light h-100">
+    <p class="h1 text-black">{{ .title }}</p>
+    <p class="h2 text-black">Welcome to {{ .content }}</p>
+    <br>
+    <p class="h2 text-black">-object</p>
+    <p class="h2 text-black">user = {{ .object.User }}, msg = {{ .object.Msg }}</p>
+    <br>
+    <p class="h2 text-black">-with</p>
+    <p class="h2 text-black">{{with .object}} user = {{ .User }} , msg = {{ .Msg }} {{end}}
+    <br>
+    <p class="h2 text-black">-if</p>
+    <p class="h2 text-black">Timestamp = {{ .timestamp }}</p>    
+    {{if .timestamp_odd}}
+        <p class="h3 text-black">Timestamp is odd</p>
+    {{else}}
+        <p class="h3 text-black">Timestamp is even</p>
+    {{end}}
+    <br>
+    <p class="h2 text-black">-range</p>
+    <ul>
+      {{ range .users}}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+</section>
+
+{{template "footer.html"}}
