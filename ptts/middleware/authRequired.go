@@ -14,9 +14,9 @@ func AuthRequired() gin.HandlerFunc {
 
 		session := sessions.Default(c)
 
-		username := session.Get(globals.Userkey)
+		useremail := session.Get(globals.Userkey)
 
-		if username == nil {
+		if useremail == nil {
 			fmt.Println("User not logged in")
 			c.Redirect(http.StatusFound, "/login")
 			c.Abort()
