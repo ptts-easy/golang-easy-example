@@ -37,7 +37,7 @@ This is a golang web application to learn easily.
 
 <img src="/images/006.png"/>
 
-- Login.
+- login.
 
 <img src="/images/007.png"/>
 
