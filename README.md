@@ -11,6 +11,8 @@ This is a golang web application to learn easily.
 - **file upload**
 - **HTTP : XMLHttp, fetch, ajax, axios**
 
+## Snapshot
+
 - static html file.
 
 <img src="/images/001.png"/>
