@@ -2,7 +2,7 @@
 
 ## Functions
 
-This is a golang web application to learn easily
+This is a golang web application to learn easily.
 
 - **language : GoLang**
 - **front-end : jquery, bootstrap**
@@ -11,20 +11,40 @@ This is a golang web application to learn easily
 - **file upload**
 - **HTTP : XMLHttp, fetch, ajax, axios**
 
+- static html file.
+
 <img src="/images/001.png"/>
+
+- gin web template.
+
 <img src="/images/002.png"/>
+
+- gin routing.
+
 <img src="/images/003.png"/>
+
+- file upload.
+
 <img src="/images/004.png"/>
+
+- http ajax.
+
 <img src="/images/005.png"/>
+
+- RESTApi.
+
 <img src="/images/006.png"/>
+
+- Login.
+
 <img src="/images/007.png"/>
 
 ## run & test
 
 - run    
-        cmd>./run.bat
+    - cmd>./run.bat
 - test
-        http://localhost:38080/
+    - http://localhost:38080/
 
 ## contact
 
